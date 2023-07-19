@@ -4,3 +4,9 @@ server:
 spring:
   mustache:
     suffix: .html
+
+# ENV -> APP_SERVICES_CLIENTS_URI
+app:
+  services:
+    clients:
+      uri: http://localhost:8080
